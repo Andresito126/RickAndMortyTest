@@ -1,1 +1,48 @@
-<app-table></app-table>
+<main class="main-formulario">
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg ml-20 mr-20 mt-20">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Type
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        <div class="flex items-center">
+                        Dimensions
+                        </div>
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        <div class="flex items-center">
+                            Actions
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let location of locations"   class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  
+
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        {{location.name}}
+                    </th>
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        {{location.type}}
+                    </th>
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        {{location.dimension}}
+                    </th>
+
+                    <td class="px-9 py-4 ">
+                        <button  class="font-medium text-blue-600 dark:text-blue-500 hover:underline">See</button>
+                    </td>
+                    
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
