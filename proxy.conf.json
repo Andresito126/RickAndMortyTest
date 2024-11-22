@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "https://therickandmortyapi.vercel.app",
+      "secure": false
+    }
+  }
+  

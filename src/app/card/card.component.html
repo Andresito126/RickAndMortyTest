@@ -1,0 +1,13 @@
+<div class="card-container">
+    <div *ngFor="let character of characters" class="card">
+      <img [src]="character.image" alt="{{ character.name }}" class="character-image" />
+      <div class="card-content">
+        <h2>{{ character.name }}</h2>
+        <p><strong>Status:</strong> {{ character.status }}</p>
+        <p><strong>Species:</strong> {{ character.species }}</p>
+        <p><strong>Gender:</strong> {{ character.gender }}</p>
+        <p><strong>Location:</strong> {{ character.location.name }}</p>
+        <p><strong>Origin:</strong> {{ character.origin.name }}</p>
+      </div>
+    </div>
+  </div>

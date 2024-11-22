@@ -1,52 +1,58 @@
 {
-  "hash": "629ebd01",
-  "configHash": "1da11540",
+  "hash": "29f119a0",
+  "configHash": "5ec0e3e6",
   "lockfileHash": "360395d6",
-  "browserHash": "257d9663",
+  "browserHash": "46c67d05",
   "optimized": {
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "f41d3b50",
+      "fileHash": "2f528b37",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "8e445cb7",
+      "fileHash": "458d376d",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "501134d2",
+      "fileHash": "d167881e",
       "needsInterop": false
     },
     "@angular/platform-browser/animations/async": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
       "file": "@angular_platform-browser_animations_async.js",
-      "fileHash": "e7981a30",
+      "fileHash": "2ffd4b9b",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "aece46f2",
+      "fileHash": "56b6df33",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "2a7bcd87",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-HDJ6YWJH": {
-      "file": "chunk-HDJ6YWJH.js"
+    "chunk-HC22QQNX": {
+      "file": "chunk-HC22QQNX.js"
     },
-    "chunk-DCIRRT7I": {
-      "file": "chunk-DCIRRT7I.js"
+    "chunk-AX5IVMTF": {
+      "file": "chunk-AX5IVMTF.js"
     },
-    "browser-4JYZBZHO": {
-      "file": "browser-4JYZBZHO.js"
+    "browser-D6THNZCQ": {
+      "file": "browser-D6THNZCQ.js"
     },
-    "chunk-OP4OACPU": {
-      "file": "chunk-OP4OACPU.js"
+    "chunk-XD3Y76EE": {
+      "file": "chunk-XD3Y76EE.js"
     },
     "chunk-IKJ4S2J2": {
       "file": "chunk-IKJ4S2J2.js"
